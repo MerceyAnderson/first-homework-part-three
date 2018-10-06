@@ -1,21 +1,15 @@
 # Приложение,которое требует ввода от пользователя и приветствует трижды.
 # Модификация предыдущего пункта,но каждый раз когда мы выводим приветствие,мы выводим его : b) в верхнем регистре.
 
-print "What's your name? "
-name = gets.chomp
-name.capitalize
+print "\n" "Username : "
+username = gets.chomp
+username.capitalize
 
-puts # Не понял как абзацы делать(
-
-print "You're password : "
+print "\n" "Password : "
 password = gets.chomp
 
-puts # Не понял как абзацы делать( (x2)
+puts  "\n" "Authorization completed"
 
-puts  "Authorization completed"
+puts "\n" "Welcome #{username}"
 
-puts # Не понял как абзацы делать( (x3)
-
-puts "Welcome #{name}"
-
-puts "Hello! ".upcase * 3
+puts "hello! ".upcase * 3
